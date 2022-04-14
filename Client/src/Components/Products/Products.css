@@ -1,0 +1,57 @@
+.products {
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+}
+.products .title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.products .title span {
+  background-color: chocolate;
+  border-radius: 25px;
+  padding: 0.1rem 10rem;
+}
+.products .cards {
+  display: flex;
+  justify-content: center;
+}
+.products .card {
+  height: 330px;
+  width: 350px;
+  margin: 0 1.1rem;
+  border-radius: 20px;
+  border: solid 4px chocolate;
+}
+.products .card .card-body {
+  display: flex;
+  padding: 10px;
+}
+.products .card .card-body .card-img {
+  padding: 6px;
+  border-radius: 26px;
+}
+.products .card-footer {
+  display: flex;
+}
+.products .card-footer .left {
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.products .card-footer .left h6 {
+  font-weight: 800;
+  font-size: 17px;
+}
+.products .card-footer .left .volume {
+  color: gray;
+}
+
+.products .card-footer .right {
+  width: 50%;
+}
+.products .card-footer .right .price {
+  font-weight: 800;
+  font-size: 20px;
+}

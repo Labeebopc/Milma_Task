@@ -1,0 +1,54 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  z-index: 1;
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  padding: 0 0.5rem;
+  top: 0;
+}
+.navbar-nav i {
+  color: #fff;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.headname {
+  display: flex;
+  justify-content: center;
+}
+.headnametitle {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 5px;
+}
+.login-section {
+  display: flex;
+  flex-direction: row;
+  right: 0;
+  justify-content: flex-end;
+}
+.login-section #loginbtn {
+  background-color: rgb(127, 230, 195);
+  border: none;
+  outline: none;
+}
+.login-section .dropdown .btn {
+  color: #fff;
+  outline: none;
+  margin-left: 10px;
+  border: none;
+}
+.login-section .dropdown-menu {
+  background-color: rgb(58, 55, 55);
+}
+.login-section .dropdown-menu .dropdown-item {
+  color: #fff;
+}
+.login-section .dropdown-menu .dropdown-item:hover {
+  background-color: rgb(58, 55, 55);
+  color: #fff;
+}

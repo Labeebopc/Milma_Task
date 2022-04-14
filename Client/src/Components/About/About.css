@@ -1,0 +1,32 @@
+.about-section {
+  display: flex;
+  height: 300px;
+}
+.about-section .left {
+  width: 50%;
+  justify-content: center;
+}
+.about-section .left img {
+  width: 60%;
+  height: 80%;
+}
+.about-section .right {
+  width: 50%;
+  justify-content: center;
+  padding-right: 20px;
+}
+.about-section .right p {
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-section .title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(77, 77, 214);
+  color: #fff;
+  font-weight: 700;
+  padding: 50px 0;
+}
