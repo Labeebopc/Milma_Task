@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './NavBar.css'
+import './AdminNavbar.css'
 
-function NavBar() {
+function AdminNavbar() {
   return (
     <nav className="navbar navbar-dark bg-dark">
 
@@ -14,13 +14,13 @@ function NavBar() {
       {/* Navbar Center Item */}
 
       <div className="headname col-md-4">
-        <h4 className="headnametitle">MILMA Ice cream Task</h4>
+        <h4 className="headnametitle">ADMIN Panel</h4>
       </div>
 
       {/* Navbar Right end Item */}
 
       <div className="login-section col-md-4">
-        <Link path='/SignUp' id='loginbtn' type="button" className="btn btn-light">Login or Create account</Link>
+        <Link to='/AdminLogin' id='loginbtn' type="button" className="btn btn-light">Login</Link>
 
         <div className="dropdown">
           <a className="btn btn-secondarybg-dark dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
@@ -28,9 +28,9 @@ function NavBar() {
           </a>
 
           <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <li><a className="dropdown-item" href="#">Actual size</a></li>
-            <li><a className="dropdown-item" href="#">Fit to width</a></li>
-            <li><a className="dropdown-item" href="#">Fit to screen</a></li>
+            <li><Link to='/AdminSignup' className="dropdown-item">Create Account</Link></li>
+            <li><Link to='/AdminProducts' className="dropdown-item">View All Products</Link></li>
+            <li><Link to='/AdminHome' className="dropdown-item">Log Out</Link></li>
           </ul>
         </div>
       </div>
@@ -39,4 +39,4 @@ function NavBar() {
   )
 }
 
-export default NavBar
+export default AdminNavbar

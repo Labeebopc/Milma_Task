@@ -1,0 +1,30 @@
+.footer-section {
+    display: flex;
+    padding: 25px;
+    height: 190px;
+    background-color: rgb(77, 77, 214);
+  }
+  .left {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-logo {
+    height: 150px;
+    width: 190px;
+    z-index: 99;
+  }
+  .right {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .right h6 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .right i {
+    color: #fff;
+    margin: 1rem;
+    font-size: 18px;
+    cursor: pointer;
+  }
